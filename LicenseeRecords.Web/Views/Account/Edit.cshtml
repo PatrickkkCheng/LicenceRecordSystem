@@ -1,0 +1,50 @@
+@model Account 
+
+@{
+    ViewData["Title"] = "Edit Account";
+}
+
+<h1 class="govuk-heading-xl">Edit Account - @Model.AccountName</h1>
+
+<form method="post" action="@Url.Action("Edit", "Account", new { id = Model.AccountId })">
+    <!-- Same form fields as Create, but pre-filled -->
+    <div class="govuk-form-group">
+        <label class="govuk-label" for="accountName">Account Name</label>
+        <input class="govuk-input" id="accountName" name="AccountName" type="text" value="@Model.AccountName" required />
+    </div>
+
+    <div class="govuk-form-group">
+        <label class="govuk-label" for="accountStatus">Account Status</label>
+        <select id="accountStatus" name="AccountStatus" class="govuk-select">
+            <option value="@Model.AccountStatus">@Model.AccountStatus</option> <!-- Pre-select current status -->
+            <option value="@((Model.AccountStatus == "Active") ? "Inactive" : "Active")">@((Model.AccountStatus == "Active") ? "Inactive" : "Active")</option> <!-- Toggle option -->
+        </select>
+    </div>
+
+    <!-- Add other fields as necessary -->
+    @for (int i = 0; i < Model.ProductLicence.Count; i++)
+    {
+        var licence = Model.ProductLicence[i];
+
+        <!-- Hidden input for LicenceId -->
+        <input type="hidden" name="ProductLicence[@i].LicenceId" value="@licence.LicenceId" />
+
+        <!-- Hidden input for LicenceStatus -->
+        <input type="hidden" name="ProductLicence[@i].LicenceStatus" value="@licence.LicenceStatus" />
+
+        <!-- Hidden input for LicenceFromDate -->
+        <input type="hidden" name="ProductLicence[@i].LicenceFromDate" value="@licence.LicenceFromDate" />
+
+        <!-- Hidden input for LicenceToDate -->
+        <input type="hidden" name="ProductLicence[@i].LicenceToDate" value="@licence.LicenceToDate" />
+
+        <!-- Hidden input for ProductId (in the Product object) -->
+        <input type="hidden" name="ProductLicence[@i].Product.ProductId" value="@licence.Product.ProductId" />
+
+        <!-- Hidden input for ProductName (in the Product object) -->
+        <input type="hidden" name="ProductLicence[@i].Product.ProductName" value="@licence.Product.ProductName" />
+    }
+    <button type="submit" class="govuk-button">Update Account</button>
+</form>
+
+<a href="@Url.Action("Index", "Account")" class="govuk-link">Back to Accounts</a>

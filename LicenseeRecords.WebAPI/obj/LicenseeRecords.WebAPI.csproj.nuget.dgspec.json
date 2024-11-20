@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.WebAPI\\LicenseeRecords.WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.WebAPI\\LicenseeRecords.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.WebAPI\\LicenseeRecords.WebAPI.csproj",
+        "projectName": "LicenseeRecords.WebAPI",
+        "projectPath": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.WebAPI\\LicenseeRecords.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Patrick Cheng\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Patrick Cheng\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

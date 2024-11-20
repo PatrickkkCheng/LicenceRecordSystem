@@ -1,0 +1,49 @@
+@model EditProductLicenseViewModel
+
+@{
+    ViewData["Title"] = "Edit Product License";
+}
+
+<h1 class="govuk-heading-xl">Edit Licence - @Model.ProductLicence.LicenceId 
+<form method="post" action="@Url.Action("DeleteLicence", "Account", new { id = Model.ProductLicence.LicenceId ,accountId= Model.AccountId})" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this licence?');">
+    <button type="submit" class="govuk-button govuk-button--warning">Delete</button>
+</form>
+</h1>
+
+<form method="post" action="@Url.Action("UpdateLicense", "Account", new { id = Model.ProductLicence.LicenceId ,accountId= Model.AccountId})" >
+    <div class="govuk-form-group">
+        <label class="govuk-label" for="licenceStatus">Licence Status</label>
+        <select id="licenceStatus" name="LicenceStatus" class="govuk-select">
+            <option value="@Model.ProductLicence.LicenceStatus">@Model.ProductLicence.LicenceStatus</option> <!-- Pre-select current status -->
+            <option value="@((Model.ProductLicence.LicenceStatus == "Active") ? "Inactive" : "Active")">@((Model.ProductLicence.LicenceStatus == "Active") ? "Inactive" : "Active")</option> <!-- Toggle option -->
+        </select>
+    </div>
+
+    <div class="govuk-form-group">
+        <label class="govuk-label" for="licenceFromDate">Licence From Date</label>
+        <input class="govuk-input" id="licenceFromDate" name="LicenceFromDate" type="date" value="@Model.ProductLicence.LicenceFromDate.ToString("yyyy-MM-dd")" required />
+    </div>
+
+    <div class="govuk-form-group">
+        <label class="govuk-label" for="licenceToDate">Licence To Date</label>
+        <input class="govuk-input" id="licenceToDate" name="LicenceToDate" type="date" value="@Model.ProductLicence.LicenceToDate?.ToString("yyyy-MM-dd")" />
+    </div>
+
+    <!-- Assuming Product is a property of ProductLicence -->
+    <div class="govuk-form-group">
+        <label class="govuk-label" for="productId">Product</label>
+            <select id="productId" name="Product.ProductId" class="govuk-select">
+            @foreach (var product in Model.Products) // Assuming Model has a Products list
+            {
+                <option value="@product.ProductId">
+                    @product.ProductName
+                </option>
+            }
+            </select>
+    </div>
+
+    <button type="submit" class="govuk-button">Update Product Licence</button>
+</form>
+
+
+<a href="javascript:void(0);" class="govuk-link" onclick="window.history.back();">Back to Previous Page</a>

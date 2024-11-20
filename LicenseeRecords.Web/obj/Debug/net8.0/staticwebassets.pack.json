@@ -1,0 +1,397 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LicenseeRecords.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LicenseeRecords.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\fonts\\bold-affa96571d-v2.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\bold-affa96571d-v2.woff"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\fonts\\bold-b542beb274-v2.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\bold-b542beb274-v2.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\fonts\\light-94a07e06a1-v2.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\light-94a07e06a1-v2.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\fonts\\light-f591b13f7d-v2.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\light-f591b13f7d-v2.woff"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\images\\favicon.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\images\\govuk-crest-2x.png",
+      "PackagePath": "staticwebassets\\assets\\images\\govuk-crest-2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\images\\govuk-crest.png",
+      "PackagePath": "staticwebassets\\assets\\images\\govuk-crest.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\images\\govuk-icon-180.png",
+      "PackagePath": "staticwebassets\\assets\\images\\govuk-icon-180.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\images\\govuk-icon-192.png",
+      "PackagePath": "staticwebassets\\assets\\images\\govuk-icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\images\\govuk-icon-512.png",
+      "PackagePath": "staticwebassets\\assets\\images\\govuk-icon-512.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\images\\govuk-icon-mask.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\govuk-icon-mask.svg"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\images\\govuk-opengraph-image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\govuk-opengraph-image.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\assets\\manifest.json",
+      "PackagePath": "staticwebassets\\assets\\manifest.json"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\css\\govuk-frontend-5.6.0.min.css",
+      "PackagePath": "staticwebassets\\css\\govuk-frontend-5.6.0.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\css\\govuk-frontend-5.6.0.min.css.map",
+      "PackagePath": "staticwebassets\\css\\govuk-frontend-5.6.0.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\css\\licensee.records.css",
+      "PackagePath": "staticwebassets\\css\\licensee.records.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\android-icon-192x192.png",
+      "PackagePath": "staticwebassets\\images\\android-icon-192x192.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\apple-icon-114x114.png",
+      "PackagePath": "staticwebassets\\images\\apple-icon-114x114.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\apple-icon-120x120.png",
+      "PackagePath": "staticwebassets\\images\\apple-icon-120x120.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\apple-icon-144x144.png",
+      "PackagePath": "staticwebassets\\images\\apple-icon-144x144.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\apple-icon-152x152.png",
+      "PackagePath": "staticwebassets\\images\\apple-icon-152x152.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\apple-icon-180x180.png",
+      "PackagePath": "staticwebassets\\images\\apple-icon-180x180.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\apple-icon-57x57.png",
+      "PackagePath": "staticwebassets\\images\\apple-icon-57x57.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\apple-icon-60x60.png",
+      "PackagePath": "staticwebassets\\images\\apple-icon-60x60.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\apple-icon-72x72.png",
+      "PackagePath": "staticwebassets\\images\\apple-icon-72x72.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\apple-icon-76x76.png",
+      "PackagePath": "staticwebassets\\images\\apple-icon-76x76.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\black-arrow-up.svg",
+      "PackagePath": "staticwebassets\\images\\black-arrow-up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\images\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\images\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\favicon-96x96.png",
+      "PackagePath": "staticwebassets\\images\\favicon-96x96.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\images\\ms-icon-144x144.png",
+      "PackagePath": "staticwebassets\\images\\ms-icon-144x144.png"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\js\\govuk-frontend-5.6.0.min.js",
+      "PackagePath": "staticwebassets\\js\\govuk-frontend-5.6.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\js\\govuk-frontend-5.6.0.min.js.map",
+      "PackagePath": "staticwebassets\\js\\govuk-frontend-5.6.0.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\js\\licensee.records.js",
+      "PackagePath": "staticwebassets\\js\\licensee.records.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Patrick Cheng\\Desktop\\PatrickProject\\Programming Languagus\\C#\\ASP.NET_Project\\Licensee Records\\LicenseeRecords.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LicenseeRecords.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LicenseeRecords.Web.props",
+      "PackagePath": "build\\LicenseeRecords.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LicenseeRecords.Web.props",
+      "PackagePath": "buildMultiTargeting\\LicenseeRecords.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LicenseeRecords.Web.props",
+      "PackagePath": "buildTransitive\\LicenseeRecords.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

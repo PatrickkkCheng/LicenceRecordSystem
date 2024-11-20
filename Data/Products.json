@@ -1,0 +1,14 @@
+[
+	{
+		"ProductId": 1,
+		"ProductName": "Bingo"
+	},
+	{
+		"ProductId": 2,
+		"ProductName": "Betting"
+	},
+	{
+		"ProductId": 3,
+		"ProductName": "Casino"
+	}
+]

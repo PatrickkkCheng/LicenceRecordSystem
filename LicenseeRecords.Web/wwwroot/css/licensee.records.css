@@ -1,0 +1,54 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/*
+    CUSTOM IMAGE
+    -----------------------------------------
+*/
+.govuk-image-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* ----------------------------------------- */
+
+/*
+    OVERRIDE CLASSES
+    -----------------------------------------
+*/
+.govuk-header {
+    border-bottom: 10px solid #11554C;
+}
+
+.govuk-header__container {
+    border-bottom: 10px solid #11554C;
+}
+
+.govuk-header__link--homepage {
+    display: inline-block;
+}
+
+.govuk-tag {
+    background-color: #11554C;
+    color: #FFFFFF;
+}
+/* ----------------------------------------- */

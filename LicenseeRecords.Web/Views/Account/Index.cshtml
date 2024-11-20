@@ -1,0 +1,44 @@
+@model List<Account>
+
+@{
+    ViewData["Title"] = "Accounts";
+}
+
+<h1 class="govuk-heading-xl">Current Accounts</h1>
+
+<div>
+    <a href="@Url.Action("CreateAccount", "Account")" class="govuk-button">Create New Account</a>
+</div>
+
+<table class="govuk-table">
+    <thead>
+        <tr>
+            <th class="govuk-table__header" scope="col">Account ID</th>
+            <th class="govuk-table__header" scope="col">Account Name</th>
+            <th class="govuk-table__header" scope="col">Account Status</th>
+            <th class="govuk-table__header" scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var account in Model)
+            {
+                <tr>
+                    <td class="govuk-table__cell">@account.AccountId</td>
+                    <td class="govuk-table__cell">@account.AccountName</td>
+                    <td class="govuk-table__cell">@account.AccountStatus</td>
+                    <td class="govuk-table__cell">
+                        <!-- Change Edit to View More -->
+                        <a href="@Url.Action("Details", "Account", new { id = account.AccountId })" class="govuk-button govuk-button--secondary">View</a>
+
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr><td colspan="4">No accounts found.</td></tr> <!-- Show message in a single row -->
+        }
+    </tbody>
+</table>

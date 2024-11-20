@@ -1,0 +1,64 @@
+@model List<Product>
+
+@{
+    ViewData["Title"] = "Create Account";
+}
+
+<h1 class="govuk-heading-xl">Create New Account</h1>
+
+<form method="post" action="@Url.Action("CreateAccount", "Account")">
+    <div class="govuk-form-group">
+        <label class="govuk-label" for="accountName">Account Name</label>
+        <input class="govuk-input" id="accountName" name="AccountName" type="text" required />
+    </div>
+
+    <div class="govuk-form-group">
+        <label class="govuk-label" for="accountStatus">Account Status</label>
+        <select id="accountStatus" name="AccountStatus" class="govuk-select">
+            <option value="Active" selected>Active</option>
+            <option value="Inactive">Inactive</option>
+        </select>
+    </div>
+
+    <h2 class="govuk-heading-l">Licenses</h2>
+    
+    <div id="licensesContainer">
+        <!-- Initial license entry -->
+        <div class="license-entry">
+            <h3 class="govuk-heading-m">License 1</h3>
+            <div class="govuk-form-group">
+                <label class="govuk-label" for="licenceStatus">Licence Status</label>
+                <select id="licenceStatus" name="ProductLicence[0].LicenceStatus" class="govuk-select">
+                    <option value="Active" selected>Active</option>
+                    <option value="Inactive">Inactive</option>
+                </select>
+            </div>
+
+            <div class="govuk-form-group">
+                <label class="govuk-label" for="licenceFromDate">Licence From Date</label>
+                <input class="govuk-input" id="licenceFromDate" name="ProductLicence[0].LicenceFromDate" type="date" required />
+            </div>
+
+            <div class="govuk-form-group">
+                <label class="govuk-label" for="licenceToDate">Licence To Date</label>
+                <input class="govuk-input" id="licenceToDate" name="ProductLicence[0].LicenceToDate" type="date" />
+            </div>
+
+            <div class="govuk-form-group">
+                <label class="govuk-label">Product Name</label>
+                <select name="ProductLicence[0].Product.ProductId" class="govuk-select">
+                    @foreach (var product in Model)
+                    {
+                        <option value="@product.ProductId">@product.ProductName</option>
+                    }
+                </select>
+            </div>
+    
+        </div>
+    </div>
+
+
+    <button type="submit" class="govuk-button">Create Account</button>
+</form>
+
+<a href="@Url.Action("Index", "Account")" class="govuk-link">Back to Accounts</a>

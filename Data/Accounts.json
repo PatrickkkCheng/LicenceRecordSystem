@@ -1,0 +1,80 @@
+[
+  {
+    "AccountId": 1,
+    "AccountName": "Online Bingo Limited",
+    "AccountStatus": "Active",
+    "ProductLicence": [
+      {
+        "LicenceId": 1,
+        "LicenceStatus": "Active",
+        "LicenceFromDate": "2024-01-10T00:00:00",
+        "LicenceToDate": null,
+        "Product": {
+          "ProductId": 1,
+          "ProductName": "Bingo"
+        }
+      }
+    ]
+  },
+  {
+    "AccountId": 2,
+    "AccountName": "123 Bet Inc.",
+    "AccountStatus": "Active",
+    "ProductLicence": [
+      {
+        "LicenceId": 2,
+        "LicenceStatus": "Active",
+        "LicenceFromDate": "2013-06-26T00:00:00",
+        "LicenceToDate": null,
+        "Product": {
+          "ProductId": 2,
+          "ProductName": "Betting"
+        }
+      }
+    ]
+  },
+  {
+    "AccountId": 3,
+    "AccountName": "Funtime Gambling",
+    "AccountStatus": "Active",
+    "ProductLicence": [
+      {
+        "LicenceId": 3,
+        "LicenceStatus": "Inactive",
+        "LicenceFromDate": "2016-09-03T00:00:00",
+        "LicenceToDate": "2018-09-02T00:00:00",
+        "Product": {
+          "ProductId": 1,
+          "ProductName": "Bingo"
+        }
+      },
+      {
+        "LicenceId": 4,
+        "LicenceStatus": "Active",
+        "LicenceFromDate": "2016-09-03T00:00:00",
+        "LicenceToDate": null,
+        "Product": {
+          "ProductId": 3,
+          "ProductName": "Casino"
+        }
+      }
+    ]
+  },
+  {
+    "AccountId": 4,
+    "AccountName": "Casino 999",
+    "AccountStatus": "Inactive",
+    "ProductLicence": [
+      {
+        "LicenceId": 5,
+        "LicenceStatus": "Inactive",
+        "LicenceFromDate": "2020-02-29T00:00:00",
+        "LicenceToDate": null,
+        "Product": {
+          "ProductId": 3,
+          "ProductName": "Casino"
+        }
+      }
+    ]
+  }
+]

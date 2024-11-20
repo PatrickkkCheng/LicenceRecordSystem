@@ -1,0 +1,76 @@
+@model Account
+
+@{
+    ViewData["Title"] = "Account Details";
+}
+
+<h1 class="govuk-heading-xl">Account Details - @Model.AccountName</h1>
+
+<div class="govuk-summary-list">
+    <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Account ID </dt>
+        <dd class="govuk-summary-list__value">@Model.AccountId </dd>
+        <dd class="govuk-summary-list__value">
+            <a href="@Url.Action("Edit", "Account", new { id = Model.AccountId })" class="govuk-button govuk-button--secondary">Edit</a>
+            <form method="post" action="@Url.Action("Delete", "Account", new { id = Model.AccountId })" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this account?');">
+                <button type="submit" class="govuk-button govuk-button--warning">Delete</button>
+            </form>
+        </dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Account Name</dt>
+        <dd class="govuk-summary-list__value">@Model.AccountName</dd>
+    </div>
+
+    <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Account Status</dt>
+        <dd class="govuk-summary-list__value">@Model.AccountStatus</dd>
+    </div>
+
+    <!-- Add other fields as necessary -->
+</div>
+
+<h2 class="govuk-heading-l">Product Licenses</h2>
+<div>
+    <a href="@Url.Action("CreateLicense", "Account",new { id = Model.AccountId })" class="govuk-button">Create New Licence</a>
+</div>
+
+@if (Model.ProductLicence != null && Model.ProductLicence.Any())
+{
+    <table class="govuk-table">
+        <thead>
+            <tr>
+                <th class="govuk-table__header" scope="col">Licence ID</th>
+                <th class="govuk-table__header" scope="col">Licence Status</th>
+                <th class="govuk-table__header" scope="col">Product Name</th>
+                <th class="govuk-table__header" scope="col">From</th>
+                <th class="govuk-table__header" scope="col">To</th>
+                <th class="govuk-table__header" scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var license in Model.ProductLicence)
+            {
+                <tr>
+                    <td class="govuk-table__cell">@license.LicenceId</td>
+                    <td class="govuk-table__cell">@license.LicenceStatus</td>
+                    <td class="govuk-table__cell"> @license.Product.ProductName</td> 
+                    <td class="govuk-table__cell">@license.LicenceFromDate.ToString("dd/MM/yyyy")</td>
+                    <td class="govuk-table__cell">@license.LicenceToDate?.ToString("dd/MM/yyyy")</td>
+                    <td class="govuk-table__cell"> 
+                        <!-- Edit button for product license -->
+                        <a href="@Url.Action("EditLicense", "Account", new { id = license.LicenceId })" class="govuk-button govuk-button--secondary">Edit</a>
+            
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No product licenses found for this account.</p>
+}
+
+<a href="@Url.Action("Index", "Account")" class="govuk-link">Back to Accounts</a>

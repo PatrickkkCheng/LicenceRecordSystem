@@ -1,0 +1,49 @@
+@model CreateProductLicenseViewModel
+
+@{
+    ViewData["Title"] = "Create Licence";
+}
+
+<h1 class="govuk-heading-xl">Create New Licence</h1>
+
+<form method="post" action="@Url.Action("CreateNewLicense", "Account", new { accountId= Model.AccountId})" >
+
+    <div id="licensesContainer">
+        <!-- License fields will be added here dynamically -->
+        <div class="license-entry">
+        
+            <div class="govuk-form-group">
+                <label class="govuk-label" for="licenceStatus_0">Licence Status</label>
+                <select id="licenceStatus_0" name="LicenceStatus" class="govuk-select">
+                    <option value="Active">Active</option>
+                    <option value="Inactive">Inactive</option>
+                </select>
+            </div>
+
+            <div class="govuk-form-group">
+                <label class="govuk-label" for="licenceFromDate_0">Licence From Date</label>
+                <input class="govuk-input" id="licenceFromDate_0" name="LicenceFromDate" type="date" required />
+            </div>
+
+            <div class="govuk-form-group">
+                <label class="govuk-label" for="licenceToDate_0">Licence To Date</label>
+                <input class="govuk-input" id="licenceToDate_0" name="LicenceToDate" type="date" />
+            </div>
+
+            <!-- Assuming you have a product selection -->
+            <div class="govuk-form-group">
+                <label class="govuk-label" for="productId">Product Name</label>
+                <select name="Product.ProductId" class="govuk-select">
+                    <!-- Populate products from your API or model -->
+                    @foreach (var product in Model.Products) // Assuming you pass a list of products to the view
+                    {
+                        <option value="@product.ProductId">@product.ProductName</option>
+                    }
+                </select>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="govuk-button">Create Licence</button>
+</form>
+
+<a href="javascript:void(0);" class="govuk-link" onclick="window.history.back();">Back to Previous Page</a>
